@@ -1,18 +1,18 @@
-Random Password Generator
+Rock-Paper-Scissors Game
 
-A simple Python script to generate random passwords.
+A simple implementation of the classic Rock-Paper-Scissors game using Python.
 
 Description
 
-This script generates a random password of a specified length, using a combination of uppercase and lowercase letters, digits, and special characters.
+This game allows two players to play against each other, or a single player to play against the computer. The game follows the standard rules of Rock-Paper-Scissors:
+
+- Rock beats Scissors
+- Scissors beats Paper
+- Paper beats Rock
 
 Features
 
-- Generates passwords of a specified length (default: 12 characters)
-- Uses a combination of:
-    - Uppercase letters (A-Z)
-    - Lowercase letters (a-z)
-    - Digits (0-9)
-    - Special characters (!, @, #, $, etc.)
-- Option to exclude certain characters or character types
-- Secure password generation using the secrets module
+- Play against another player or the computer
+- Keep track of wins, losses, and draws
+- Play multiple rounds
+- Use a simple text-based interface
